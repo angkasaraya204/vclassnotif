@@ -1,4 +1,2 @@
-pip install discord
-pip install asyncio
-pip upgrade
-pip update
+discord
+asyncio
