@@ -7,9 +7,7 @@ WORKDIR /
 COPY requirements.txt ./
 
 # Install the application dependencies
-RUN pip install --no-cache-dir -r requirements.txt
-
-COPY . .
+RUN pip install -r requirements.txt
 
 # Define the entry point for the container
-CMD ["python", "./moobot.py"]
+CMD ["python", "moobot.py"]
